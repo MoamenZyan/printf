@@ -1,1 +1,1 @@
-this is prject is about printf function
+this project is all about printf function
