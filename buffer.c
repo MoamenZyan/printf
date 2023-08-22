@@ -3,10 +3,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-<<<<<<< HEAD
-int i = 0;
-int len = 0;
-=======
 static int i;
 static int len;
 
@@ -16,7 +12,6 @@ static int len;
  * @str: the string that we want to add
  * Return: void
 */
->>>>>>> 60d8ad6 (final commit)
 
 void add_to_buffer_string(char buffer[], char *str)
 {
@@ -43,15 +38,6 @@ void add_to_buffer_char(char buffer[], char c)
 	}
 }
 
-<<<<<<< HEAD
-int print_buffer(char buffer[])
-{
-	int x = len;
-	write(1, buffer, len);
-	i = 0;
-	len = 0;
-	return(x);
-=======
 /**
  * print_buffer - function that prints out buffer and flushs
  * @buffer: the buffer
@@ -66,5 +52,4 @@ int print_buffer(char buffer[])
 	i = 0;
 	len = 0;
 	return (x);
->>>>>>> 60d8ad6 (final commit)
 }
