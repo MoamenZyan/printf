@@ -9,11 +9,16 @@
 */
 char *intToString(int num)
 {
-	int temp, len, i, start;
+	int temp;
+	int len;
+	int i;
+	int start;
+	char *str;
+
 	bool neg = false;
 
 	temp = num;
-	char *str;
+	
 
 	str = malloc(sizeof(char) * num_len(num) + 1);
 
